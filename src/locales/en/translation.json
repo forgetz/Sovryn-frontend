@@ -17,6 +17,7 @@
     "maintenance": "Under Maintenance",
     "next": "Next",
     "loading": "Loading...",
+    "noData": "No data",
     "unit": {
       "day": "{{count}} day",
       "day_plural": "{{count}} days"
