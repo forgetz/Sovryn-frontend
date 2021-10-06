@@ -15,8 +15,10 @@ function resolveColorScheme() {
   }
 }
 
-export function useAppTheme() {
+export function useAppTheme(fixModes) {
   const [theme, setTheme] = useState(resolveColorScheme());
+  fixModes ?? setTheme(fixModes);
+
   useEffect(() => {
     try {
       window

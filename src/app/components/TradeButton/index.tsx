@@ -59,7 +59,7 @@ export function TradeButton(props: Props) {
   );
 }
 TradeButton.defaultProps = {
-  textColor: 'var(--white)',
+  textColor: 'var(--black)',
   type: 'button',
   onClick: () => {},
 };
@@ -83,7 +83,7 @@ const StyledButton = styled.button`
     text-decoration: none;
   }
   &:hover:not(:disabled) {
-    color: var(--white);
+    color: var(--black);
   }
   &:disabled span {
     opacity: 0.7;

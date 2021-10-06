@@ -23,7 +23,7 @@ const StyledTab = styled.button.attrs(_ => ({
   type: 'button',
   className: 'btn hover:tw-text-gray-9',
 }))`
-  color: var(--sov-white);
+  color: var(--black);
   padding: 5px 10px;
   background: transparent;
   font-size: 1.125rem;
@@ -35,7 +35,7 @@ const StyledTab = styled.button.attrs(_ => ({
     css`
       font-weight: 400;
       &:hover {
-        color: var(--white);
+        color: var(--black);
       }
     `}
 `;

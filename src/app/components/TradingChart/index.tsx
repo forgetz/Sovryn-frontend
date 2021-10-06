@@ -149,5 +149,5 @@ export function TradingChart(props: ChartContainerProps) {
 }
 
 TradingChart.defaultProps = {
-  theme: Theme.DARK,
+  theme: Theme.LIGHT,
 };

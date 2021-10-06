@@ -31,6 +31,7 @@
     height: 40px;
     th {
       @include table-header;
+      color: var(--black);
     }
   }
   tbody {
@@ -38,6 +39,7 @@
       &:nth-child(odd) {
         td {
           @apply tw-bg-gray-3;
+          color: var(--white);
 
           &:first-child {
             @apply tw-rounded-l-md;
@@ -61,7 +63,7 @@
 
     td {
       @apply tw-px-5 tw-py-0
-        tw-text-sov-white;
+        tw-text-black;
       @media (max-width: 441px) {
         @apply tw-px-4;
       }

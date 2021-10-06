@@ -9,7 +9,7 @@ module.exports = {
   future: {
     purgeLayersByDefault: true,
   },
-  // darkMode: 'media', // 'media' or 'class'
+  //darkMode: 'class', // 'media' or 'class'
   theme: {
     container: {
       center: true,
@@ -43,10 +43,10 @@ module.exports = {
       transparent: 'transparent',
       current: 'currentColor',
 
-      primary: '#fec004',
-      'primary-75': '#fec004C0',
-      'primary-50': '#fec00480',
-      'primary-25': '#fec00440',
+      primary: '#19c6bc',
+      'primary-75': '#47D7CF',
+      'primary-50': '#71EEE7',
+      'primary-25': '#C7F8F5',
       'primary-10': '#fec0041a',
 
       secondary: '#2274a5',
@@ -66,8 +66,8 @@ module.exports = {
       'gray-8': '#a2a2a2',
       'gray-9': '#c4c4c4',
       'sov-white': '#e8e8e8',
-      white: '#ffffff',
 
+      white: '#FFFFFF',
       'trade-long': '#17C3B2',
       'trade-long-75': '#17C3B2C0',
       'trade-long-50': '#17C3B280',
@@ -102,6 +102,8 @@ module.exports = {
       'purple-2': '#7E64A7',
       'pink-1': '#C38FBB',
       'pink-2': '#A264A7',
+
+      bluegrey: '#FF0000',
     },
     borderColor: theme => ({
       ...theme('colors'),

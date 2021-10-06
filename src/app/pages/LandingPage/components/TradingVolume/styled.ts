@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const VolumeValue = styled.div`
   font-size: 1.5rem;
-  color: #fed559;
+  color: var(--primary);
   line-height: 1.8rem;
   letter-spacing: 0;
   font-weight: 600;

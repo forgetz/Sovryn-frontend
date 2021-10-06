@@ -115,7 +115,7 @@ export function NotificationFormComponent(props: Props) {
 }
 
 const StyledButton = styled.button`
-  color: var(--white);
+  color: var(--black);
   background-color: var(--gray-1);
   border-radius: 1.25rem;
   padding: 5px 30px;

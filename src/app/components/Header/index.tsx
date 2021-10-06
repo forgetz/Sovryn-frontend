@@ -184,7 +184,7 @@ export function Header() {
             </div>
           </div>
           <div className="xl:tw-flex tw-flex-row tw-items-center">
-            <div className="tw-mr-5 2xl:tw-mr-20">
+            <div className="tw-mr-5 2xl:tw-mr-20 tw-text-black">
               <Link to="/">
                 <StyledLogo />
               </Link>

@@ -19,11 +19,11 @@ export function EmailNotificationButton(props: Props) {
 const StyledButton = styled.button.attrs(_ => ({
   type: 'button',
 }))`
-  color: var(--white);
+  color: var(--black);
   background-color: var(--gray-1);
   padding: 3px 10px;
   border-radius: 1.25rem;
-  border: 1px solid var(--white);
+  border: 1px solid var(--black);
   font-size: 0.75rem;
   :hover {
     color: var(--primary);

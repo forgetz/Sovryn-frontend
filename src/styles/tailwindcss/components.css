@@ -9,7 +9,7 @@
 
   .tw-header-link,
   .tw-header-link:visited {
-    @apply tw-font-body tw-normal-case tw-no-underline tw-text-sov-white tw-text-base tw-no-underline tw-transition;
+    @apply tw-font-body tw-normal-case tw-no-underline tw-text-black tw-text-base tw-no-underline tw-transition;
   }
 
   .tw-header-link:hover,
@@ -18,7 +18,7 @@
   }
 
   .tw-header-link.active {
-    @apply tw-text-sov-white tw-font-medium tw-no-underline;
+    @apply tw-text-primary tw-font-medium tw-no-underline;
   }
 
   /* form button styles */
@@ -150,7 +150,7 @@
   font-size: 1.25rem;
   line-height: 1;
   opacity: 0.75;
-  color: theme('colors.sov-white');
+  color: theme('colors.black');
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -214,7 +214,7 @@
 .slick-dots li button {
   @apply tw-w-2.5 tw-h-2.5
     tw-bg-secondary tw-rounded-full
-    tw-cursor-pointer tw-bg-sov-white;
+    tw-cursor-pointer tw-bg-sov-white tw-text-black;
   font-size: 0;
   transition: background 0.3s;
 }

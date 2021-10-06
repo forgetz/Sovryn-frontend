@@ -39,7 +39,7 @@ const Wrapper = styled.div`
   justify-content: center;
   flex-direction: column;
   min-height: 320px;
-  color: var(--white);
+  color: var(--black);
 `;
 
 const Title = styled.div`

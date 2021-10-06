@@ -16,7 +16,7 @@ export const GlobalStyle = createGlobalStyle`
     font-family: var(--primary-font);
     font-size: 12px;
     background-color: var(--background);
-    color: #D9D9D9;
+    color: #444444;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-stroke: 0.45px;
@@ -25,7 +25,7 @@ export const GlobalStyle = createGlobalStyle`
     `}
 
     &.originsLaunchpad {
-      background-color: #282828 !important;
+      background-color: #fff !important;
     }
   }
 
@@ -51,7 +51,7 @@ export const GlobalStyle = createGlobalStyle`
     font-family: var(--secondary-font);
     font-size: 400;
     background-color: var(--primary);
-    color: var(--white);
+    color: var(--black);
     border: none;
     &::selection {
       border: none;

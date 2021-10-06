@@ -39,7 +39,7 @@ export function TransakScreen({ state, dispatch }: TransakScreenProps) {
         environment: process.env.REACT_APP_TRANSAK_ENV, // STAGING/PRODUCTION
         defaultCryptoCurrency: 'BTC',
         walletAddress: state.deposit.address, // Your customer's wallet address
-        themeColor: '000000', // App theme color
+        themeColor: 'FFFFFF', // App theme color
         fiatCurrency: '', // INR/GBP
         email: '', // Your customer's email address
         redirectURL: '',

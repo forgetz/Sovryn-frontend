@@ -52,7 +52,7 @@ const title =
   currentNetwork !== 'mainnet' ? `Sovryn ${currentNetwork}` : 'Sovryn';
 
 export function App() {
-  useAppTheme();
+  useAppTheme('light');
 
   useInjectReducer({ key: maintenanceSlice, reducer: maintenanceReducer });
   useInjectSaga({ key: maintenanceSlice, saga: maintenanceStateSaga });
@@ -61,7 +61,6 @@ export function App() {
   const { checkMaintenance, States } = useMaintenance();
   const siteLocked = checkMaintenance(States.FULL);
   usePriceFeeds_tradingPairRates();
-
   useEffect(() => {
     dispatch(maintenanceActions.fetchMaintenance());
   }, [dispatch]);

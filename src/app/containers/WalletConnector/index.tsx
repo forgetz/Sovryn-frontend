@@ -121,7 +121,7 @@ const StyledButton = styled.button.attrs(({ className }) => ({
 }))`
   border: none;
   background: none;
-  color: var(--white);
+  color: var(--black);
   width: 48px;
   height: 48px;
   text-align: center;
