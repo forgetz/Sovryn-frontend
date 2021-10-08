@@ -65,7 +65,7 @@ export function StakingRewardsClaimForm({ className, address }: Props) {
     <div
       className={cn(
         className,
-        'tw-trading-form-card tw-bg-black tw-rounded-3xl tw-p-8 tw-mx-auto xl:tw-mx-0 tw-flex tw-flex-col',
+        'tw-trading-form-card tw-bg-white tw-border tw-border-gray-5 tw-rounded-3xl tw-p-8 tw-mx-auto xl:tw-mx-0 tw-flex tw-flex-col',
       )}
     >
       <div className="tw-text-center tw-text-xl">

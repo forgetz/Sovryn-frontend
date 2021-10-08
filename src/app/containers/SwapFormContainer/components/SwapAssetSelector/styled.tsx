@@ -6,10 +6,10 @@ export const StyledButton = styled.button.attrs(attrs => ({
 }))`
   position: relative;
   height: 40px;
-  background-color: #222222;
+  background-color: var(--white);
   border: 1px solid #575757;
   border-radius: 0.5rem;
-  color: #e8e8e8;
+  color: var(--black);
   font-size: 1rem;
   font-family: 'Montserrat', sans-serif;
 `;

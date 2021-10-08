@@ -16,11 +16,11 @@ const StyledButton = styled.button`
   width: 100%;
   margin-top: 40px;
   border: 1px solid var(--primary);
-  color: #000;
+  color: var(--black);
   padding: 11px;
   font-size: 1.25rem;
   font-weight: 900;
-  background: var(--primary);
+  background: var(--primary-25);
   border-radius: 0.75rem;
   text-transform: none;
   line-height: 1;
@@ -28,7 +28,7 @@ const StyledButton = styled.button`
   text-transform: uppercase;
 
   &:hover {
-    background: rgba(254, 192, 4, 0.75);
+    background: var(--primary-50);
   }
 
   ${(props: BtnProps) =>

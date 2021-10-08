@@ -83,7 +83,7 @@ export const TradeForm: React.FC<ITradeFormProps> = ({ pairType }) => {
 
   return (
     <>
-      <div className="tw-trading-form-card tw-bg-black tw-rounded-3xl tw-p-12 tw-mx-auto xl:tw-mx-0">
+      <div className="tw-trading-form-card tw-bg-white tw-border tw-border-gray-5 tw-rounded-3xl tw-p-12 tw-mx-auto xl:tw-mx-0">
         <div className="tw-mw-340 tw-mx-auto">
           <FormGroup
             label={t(translations.marginTradePage.tradeForm.labels.pair)}

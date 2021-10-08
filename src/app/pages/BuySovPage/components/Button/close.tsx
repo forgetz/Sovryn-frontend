@@ -16,18 +16,18 @@ const StyledButton = styled.button`
   width: 100%;
   margin-top: 40px;
   border: 1px solid var(--primary);
-  color: var(--primary);
+  color: var(--black);
   padding: 11px;
   font-size: 1.25rem;
   font-weight: 900;
-  background: rgba(254, 192, 4, 0.05);
+  background: var(--white);
   border-radius: 0.75rem;
   text-transform: uppercase;
   line-height: 1;
   transition: background 0.3s;
 
   &:hover {
-    background: rgba(254, 192, 4, 0.25);
+    background: var(--primary-50);
   }
 
   ${(props: BtnProps) =>

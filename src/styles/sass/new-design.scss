@@ -38,7 +38,7 @@
     tr {
       &:nth-child(odd) {
         td {
-          @apply tw-bg-gray-3;
+          @apply tw-bg-gray-5;
           color: var(--white);
 
           &:first-child {

@@ -5,7 +5,7 @@ interface IStyledCardRowProps {
 }
 
 export const StyledCardRow = styled.div<IStyledCardRowProps>`
-  background-color: #222222;
+  background-color: var(--sov-white);
   display: flex;
   align-items: center;
   border-radius: 0.5rem;

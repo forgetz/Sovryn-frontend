@@ -8,7 +8,7 @@ export const StyledButton = styled.button.attrs(_ => ({
   className: 'tw-flex tw-flex-row tw-justify-center tw-items-center',
 }))`
   border: 1px solid var(--primary);
-  background: var(--primary-10);
+  background: var(--primary-25);
   border-radius: 0.75rem;
   color: var(--primary);
   min-width: 48px;
@@ -37,7 +37,7 @@ export const StyledButton = styled.button.attrs(_ => ({
 
     &:hover, &:focus {
       &:not([disabled]) {
-        background: var(--primary-25) !important;
+        background: var(--primary-50) !important;
       }
     }
     &:active:hover {

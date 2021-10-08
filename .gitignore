@@ -27,3 +27,5 @@ template
 # tradingview chart libs
 public/charting_library
 public/datafeeds
+
+.vercel

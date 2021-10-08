@@ -14,7 +14,7 @@ export const Footer: React.FC = () => {
 
   return (
     <footer className="tw-mt-4 tw-bg-gray-2 tw-text-sov-white tw-pt-5">
-      <h6 className="tw-font-normal tw-text-base tw-text-center tw-w-full">
+      <h6 className="tw-font-normal tw-text-base tw-text-center tw-w-full tw-text-sov-white">
         <Trans
           i18nKey={translations.footer.title}
           components={[<strong></strong>]}

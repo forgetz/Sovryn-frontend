@@ -107,7 +107,7 @@ export function BuyForm() {
         <div className="tw-px-0 lg:tw-px-8">
           <FieldGroup
             label={t(translations.buySovPage.form.enterAmount)}
-            labelColor="#e8e8e8"
+            labelColor="#000000"
           >
             <Input
               value={amount}
@@ -124,7 +124,7 @@ export function BuyForm() {
 
           <ArrowDown />
 
-          <FieldGroup label={t(s.fields.receive)} labelColor="#e8e8e8">
+          <FieldGroup label={t(s.fields.receive)} labelColor="#333333">
             <Dummy className="tw-flex tw-justify-between tw-items-center">
               <div>
                 <LoadableValue
@@ -210,7 +210,7 @@ const SlippageButton = styled.button`
 
 const Dummy = styled.div`
   border: 1px solid #575757;
-  color: #e8e8e8;
+  color: var(--black);
   height: 40px;
   padding: 11px 21px;
   font-weight: 500;

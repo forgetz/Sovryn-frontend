@@ -149,7 +149,7 @@ export function TradeForm() {
           onChange={value => setSlippage(value)}
         />
       )}
-      <div className="tw-trading-form-card spot-form tw-bg-black tw-rounded-3xl tw-p-12 tw-mx-auto xl:tw-mx-0">
+      <div className="tw-trading-form-card spot-form tw-bg-white tw-border tw-border-gray-5 tw-rounded-3xl tw-p-12 tw-mx-auto xl:tw-mx-0">
         <div className="tw-mw-340 tw-mx-auto">
           <BuySell value={tradeType} onChange={setTradeType} />
 

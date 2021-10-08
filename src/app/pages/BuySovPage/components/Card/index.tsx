@@ -95,7 +95,7 @@ export function Card(props: Props) {
     <Container
       disabled={props.disabled}
       large={props.large}
-      className="tw-bg-black tw-flex tw-flex-col tw-justify-start tw-items-center tw-flex-grow-0 tw-flex-shrink-0"
+      className="tw-bg-white tw-border tw-border-gray-5 tw-flex tw-flex-col tw-justify-start tw-items-center tw-flex-grow-0 tw-flex-shrink-0"
     >
       <H2 step={props.step}>
         <span>{props.step}.</span>

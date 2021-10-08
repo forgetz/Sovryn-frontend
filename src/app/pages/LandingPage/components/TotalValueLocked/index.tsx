@@ -92,7 +92,7 @@ export const TotalValueLocked: React.FC<ITotalValueLockedProps> = ({
             usdValue={subtotalUsdValue}
             loading={loading}
             className="tw-border-t tw-border-b tw-border-sov-white tw-border-opacity-30 tw-font-semibold"
-            contractClassName="tw-text-sov-white tw-border-t tw-border-opacity-30 tw-border-b tw-border-sov-white"
+            contractClassName="tw-text-black tw-border-t tw-border-opacity-30 tw-border-b tw-border-sov-white"
           />
 
           <DataRow
@@ -107,7 +107,7 @@ export const TotalValueLocked: React.FC<ITotalValueLockedProps> = ({
             usdValue={data?.total_usd || 0}
             loading={loading}
             className="tw-border-t tw-border-b tw-border-sov-white tw-font-semibold tw-text-lg"
-            contractClassName="tw-text-sov-white tw-uppercase tw-border-t tw-border-b tw-border-sov-white tw-text-lg"
+            contractClassName="tw-text-black tw-uppercase tw-border-t tw-border-b tw-border-sov-white tw-text-lg"
           />
         </tbody>
       </table>

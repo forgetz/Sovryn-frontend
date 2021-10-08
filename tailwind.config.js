@@ -9,7 +9,7 @@ module.exports = {
   future: {
     purgeLayersByDefault: true,
   },
-  //darkMode: 'class', // 'media' or 'class'
+  darkMode: 'media', // 'media' or 'class'
   theme: {
     container: {
       center: true,

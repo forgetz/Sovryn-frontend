@@ -140,10 +140,10 @@ const StyledButton = styled.button.attrs(({ className }) => ({
     transition: all .3s;
     border-radius: 0.75rem;
     &:hover {
-      background: rgba(254,192,4, 0.25) !important;
+      background: rgba(113,238,231, 0.25) !important;
     }
     &:active, &:focus {
-      background: rgba(254,192,4, 0.5) !important;
+      background: rgba(113,238,231, 0.5) !important;
     }
   `}
 `;

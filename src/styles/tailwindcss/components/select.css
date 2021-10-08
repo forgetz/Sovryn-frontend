@@ -8,7 +8,7 @@
   /* origin */
   .tw-select-origin {
     @apply tw-h-10;
-    @apply tw-bg-gray-2 tw-border tw-border-solid tw-border-gray-6 tw-rounded-lg;
+    @apply tw-bg-white tw-border tw-border-solid tw-border-gray-6 tw-rounded-lg;
     @apply tw-flex;
     @apply tw-justify-between;
     @apply tw-items-center;
@@ -37,7 +37,7 @@
     .bp3-transition-container
     .bp3-popover
     .bp3-popover-content {
-    @apply tw-bg-gray-2;
+    @apply tw-bg-white;
   }
 
   .tw-select-container
